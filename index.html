@@ -7,14 +7,34 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="button-container">
-    <button class="custom-button">Repair</button>
-    <button class="custom-button">Building your own computer</button>
-    <button class="custom-button">Refurbishing</button>
-  </div>
-  <h1>EcoComputers</h1>
-  <h3>Description goes here....</h3>
-  <h2>About Us</h2>
-  <p> We yap a lot</p>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="repair.html">Repair</a></li>
+        <li><a href="build.html">Build</a></li>
+        <li><a href="refurbish.html">Refurbish</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="hero-section">
+      <h1>EcoComputers</h1>
+      <p>Your sustainable computing solution</p>
+    </div>
+    <div class="button-container">
+      <button class="custom-button" onclick="location.href='repair.html'">Repair</button>
+      <button class="custom-button" onclick="location.href='build.html'">Building your own computer</button>
+      <button class="custom-button" onclick="location.href='refurbish.html'">Refurbishing</button>
+    </div>
+    <section class="description">
+      <h2>About Us</h2>
+      <p>At EcoComputers, we are dedicated to providing sustainable computing solutions that help reduce electronic waste and promote eco-friendly practices. Whether you need to repair your existing device, build a custom computer, or purchase refurbished equipment, we are here to help. Join us in making technology more sustainable.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 EcoComputers. All rights reserved.</p>
+  </footer>
 </body>
 </html>
