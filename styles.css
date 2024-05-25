@@ -1,0 +1,29 @@
+body {
+    background-color: #09300C; /* Dark green background */
+    color: white; /* White text color for visibility */
+    text-align: center; /* Center all text */
+    font-family: Arial, sans-serif; /* Optional: Set a default font */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    gap: 400px; /* Increased space between buttons */
+    margin-top: 40px;
+    margin-bottom: 20px; /* Space below the buttons */
+}
+
+.custom-button {
+    background-color: #09300C; /* Match background color */
+    color: white; /* Text color */
+    border: 2px solid white; /* White border */
+    padding: 20px 40px; /* Increased padding inside the button */
+    font-size: 20px; /* Larger font size */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.custom-button:hover {
+    background-color: #0D4A12; /* Darker green on hover */
+}
